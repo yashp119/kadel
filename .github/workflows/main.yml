@@ -26,5 +26,6 @@ jobs:
           SSH_PRIVATE_KEY: ${{ secrets.EC2_SSH_KEY }}
           REMOTE_HOST: 3.110.224.55
           REMOTE_USER: ubuntu
-          TARGET: /var/www/html/
+          TARGET: /var/www/html  # Modify this to the correct target directory on your EC2 instance
+
 
